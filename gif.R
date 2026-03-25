@@ -114,4 +114,4 @@ animated_plot <- ggplot(sf_data) +
 
 # (Optional) To render and save:
 animate(animated_plot, width = 800, height = 500, fps = 10, duration = 20,
-        renderer = gifski_renderer("img/gif_animation.gif"))
+        renderer = gifski_renderer("imgs/gif_animation.gif"))
